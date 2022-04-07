@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 'PAT题解' # Website name
-baseURL: 'https://deft-kitsune-39e867.netlify.app/' # Website URL
+title: "PAT题解" # Website name
+baseURL: "https://deft-kitsune-39e867.netlify.app/" # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -13,7 +13,7 @@ baseURL: 'https://deft-kitsune-39e867.netlify.app/' # Website URL
 cascade:
   # Docs folder options
   - _target:
-      path: /docs/**
+      path: /docs/yi/**
     editable: true
     show_breadcrumb: true
 
@@ -47,9 +47,9 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  authors: '/author/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
+  authors: "/author/:slug/"
+  tags: "/tag/:slug/"
+  categories: "/category/:slug/"
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
