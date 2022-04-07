@@ -13,7 +13,7 @@ baseURL: "https://deft-kitsune-39e867.netlify.app/" # Website URL
 cascade:
   # Docs folder options
   - _target:
-      path: /docs/yi/**
+      path: /docs/**
     editable: true
     show_breadcrumb: true
 
